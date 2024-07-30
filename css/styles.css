@@ -9,8 +9,8 @@ nav, #about, #characters, footer {
 }
 @media (max-width: 720px) {
     nav, #about, #characters, footer {
-        padding-right: 2%;
-        padding-left: 2%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
     
 }
@@ -32,8 +32,17 @@ nav {
     gap: 16px;
 }
 
+a {
+    align-content: center;
+    align-items: center ;
+}
+
 #top-logo {
     flex: 1;
+}
+
+#top-logo img{
+    width: 1.5rem;
 }
 
 
