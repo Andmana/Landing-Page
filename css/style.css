@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+img {
+    border-radius: 8px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+
+    text-align: end;
+}
+
+#top-logo {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 32px; 
+}
+
+#about {
+    font-weight: 1000;
+    /* font-size: 48px; */
+    color: #F9FAF8;
+
+}
+
+
+button {
+    background-color: rgba(95, 95, 138, 0.075);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: 1px outset white;
+}
+
+p {
+    text-align: center;
+}
