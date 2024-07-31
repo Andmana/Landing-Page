@@ -7,12 +7,17 @@ nav, #about, #characters, footer {
     padding-right: 15%;
     padding-left: 15%;
 }
-@media (max-width: 720px) {
+
+@media (max-width: 768px) {
     nav, #about, #characters, footer {
         padding-right: 5%;
         padding-left: 5%;
     }
     
+}
+
+a {
+    margin: 0 4px;
 }
 
 header {
@@ -30,14 +35,10 @@ nav {
     align-items: center;
 
     gap: 16px;
-}
+    overflow: hidden;
 
-a {
-    align-content: center;
-    align-items: center ;
 }
-
-#top-logo {
+#logo {
     flex: 1;
 }
 
@@ -179,4 +180,62 @@ h3 {
 footer {
     padding-top: 1.5rem;
     padding-bottom:  1.5rem;
+}
+
+button {
+    display: none;
+}
+
+@media (max-width: 768px) {    
+
+    button {
+        display: block;
+    }
+    
+    nav a {
+        float: left;
+        text-align: center;
+        padding: 8px 16px;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    
+    nav a:hover, .dropdown:hover .dropbtn {
+        /* background-color: lightgrey ; */
+        /* box-shadow: 0 0 10px grey; */
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding: 10px 5%;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
