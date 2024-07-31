@@ -30,10 +30,27 @@ a, button{
     font-size: 18px;
 }
 
+a:hover {
+    font-size: 1.1rem;
+}
+
 #top-logo {
     /* color: #F9FAF8; */
     font-weight: bolder;
     font-size: 32px; 
+}
+
+.dropdown-content {
+    text-align: right;
+    background-color: #1F2937;
+}
+
+
+@media (max-width: 768px) {
+    .dropdown-content a:hover {
+        background-color: #E5E7EB;
+        color: black;
+    }
 }
 
 #about {
@@ -92,15 +109,4 @@ a, button{
 
 footer {
     text-align: center;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #E5E7EB;
-    text-decoration: underline;
-    color: black;
-}
-.dropdown-content {
-    text-align: right;
-    background-color: #1F2937;
 }
