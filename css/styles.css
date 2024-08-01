@@ -38,12 +38,41 @@ nav {
     overflow: hidden;
 
 }
+
+#top-logo h1 {
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    
+}
+
+
 #logo {
     flex: 1;
 }
 
+#top-logo {
+    display: flex;
+    align-items: center;
+}
+
 #top-logo img{
-    width: 1.5rem;
+    width: 2.5rem;
+    display: inline;
+    padding-right: 2px;
+    padding-bottom: 4px;
+}
+
+@media (max-width:768px) {
+    #top-logo img{
+        width: 1.5rem;
+    }
 }
 
 /* #----------- MOBILE DROPDOWN */
@@ -80,10 +109,10 @@ button {
         margin: 0;
     }
     
-    nav a:hover, .dropdown:hover .dropbtn {
-        /* background-color: lightgrey ; */
-        /* box-shadow: 0 0 10px grey; */
-    }
+    /* nav a:hover, .dropdown:hover .dropbtn {
+        background-color: lightgrey ;
+        box-shadow: 0 0 10px grey;
+    } */
     
     .dropdown-content {
         display: none;
@@ -122,6 +151,13 @@ button {
     gap: 50px;
 }
 
+@media (max-width: 768px) {
+    #about {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }    
+}
+
 #about-content {
     flex-grow: 2;
     flex-basis: 350px;
@@ -149,13 +185,20 @@ button {
 
 
 #characters{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom:  100px;
     align-self: center;
 }
 
+@media (max-width: 768px) {
+    #characters{
+        padding-top: 50px;
+        padding-bottom:  50px;
+    }    
+}
+
 #items {
-    margin-top: 40px;
+    margin-top: 20px;
     flex: 1;
 
     display: flex;
@@ -173,7 +216,7 @@ button {
 
     padding-bottom: 20px;
     border-bottom: 10px solid grey;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .item img {
@@ -193,6 +236,7 @@ button {
 #quote {
     padding: 150px 20%;
 }
+
 @media (max-width: 720px) {
     #quote {
         padding: 150px 10%;
@@ -220,7 +264,7 @@ h3 {
 
 @media (max-width: 720px) {
     #quote {
-        margin: 5% 3%;
+        margin: 30px 3% 80px;
         padding: 5% 5%;
     }
     
@@ -236,7 +280,12 @@ h3 {
     justify-content: right;
 }
 
-
+@media (max-width: 720px) {
+    #watch {
+        margin: 80px 3%;
+        padding: 5% 5%;
+    }
+}
 
 
 footer {
