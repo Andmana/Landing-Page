@@ -3,17 +3,22 @@
     margin: 0;
 }
 
-nav, #about, #characters, footer {
+nav,
+#about,
+#characters,
+footer {
     padding-right: 15%;
     padding-left: 15%;
 }
 
 @media (max-width: 768px) {
-    nav, #about, #characters, footer {
+    nav,
+    #about,
+    #characters,
+    footer {
         padding-right: 5%;
         padding-left: 5%;
     }
-    
 }
 
 .dropdown-content a {
@@ -21,11 +26,12 @@ nav, #about, #characters, footer {
 }
 
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
-  
+
 nav {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -36,7 +42,6 @@ nav {
 
     gap: 16px;
     overflow: hidden;
-
 }
 
 #top-logo h1 {
@@ -44,14 +49,11 @@ nav {
 }
 
 @media (max-width: 768px) {
-
     nav {
         padding-top: 0.2rem;
         padding-bottom: 0.2rem;
     }
-    
 }
-
 
 #logo {
     flex: 1;
@@ -62,15 +64,15 @@ nav {
     align-items: center;
 }
 
-#top-logo img{
+#top-logo img {
     width: 2.5rem;
     display: inline;
     padding-right: 2px;
     padding-bottom: 4px;
 }
 
-@media (max-width:768px) {
-    #top-logo img{
+@media (max-width: 768px) {
+    #top-logo img {
         width: 1.5rem;
     }
 }
@@ -82,12 +84,11 @@ button {
     display: none;
 }
 
-@media (max-width: 768px) {    
-
+@media (max-width: 768px) {
     button {
         display: block;
     }
-    
+
     nav a {
         float: left;
         text-align: center;
@@ -98,7 +99,7 @@ button {
         float: left;
         overflow: hidden;
     }
-    
+
     .dropdown .dropbtn {
         border: none;
         outline: none;
@@ -108,12 +109,12 @@ button {
         font-family: inherit;
         margin: 0;
     }
-    
+
     /* nav a:hover, .dropdown:hover .dropbtn {
         background-color: lightgrey ;
         box-shadow: 0 0 10px grey;
     } */
-    
+
     .dropdown-content {
         display: none;
         position: absolute;
@@ -122,7 +123,7 @@ button {
         padding: 10px 5%;
         z-index: 1;
     }
-    
+
     .dropdown-content a {
         float: none;
         padding: 12px 16px;
@@ -130,19 +131,16 @@ button {
         display: block;
         text-align: right;
     }
-    
+
     .dropdown:hover .dropdown-content {
         display: block;
     }
 }
 /* #endregion */
 
-
-
-
 #about {
     padding-top: 150px;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
 
     display: flex;
     justify-content: center;
@@ -155,7 +153,7 @@ button {
     #about {
         padding-top: 100px;
         padding-bottom: 80px;
-    }    
+    }
 }
 
 #about-content {
@@ -181,20 +179,17 @@ button {
     width: 100%;
 }
 
-
-
-
-#characters{
+#characters {
     padding-top: 80px;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
     align-self: center;
 }
 
 @media (max-width: 768px) {
-    #characters{
+    #characters {
         padding-top: 50px;
-        padding-bottom:  50px;
-    }    
+        padding-bottom: 50px;
+    }
 }
 
 #items {
@@ -226,12 +221,9 @@ button {
     margin-bottom: 15px;
 }
 
-.item p{
+.item p {
     padding: 0 5%;
 }
-
-
-
 
 #quote {
     padding: 150px 20%;
@@ -241,7 +233,6 @@ button {
     #quote {
         padding: 150px 10%;
     }
-    
 }
 
 h3 {
@@ -267,7 +258,6 @@ h3 {
         margin: 30px 3% 80px;
         padding: 5% 5%;
     }
-    
 }
 
 #watch-content {
@@ -287,8 +277,7 @@ h3 {
     }
 }
 
-
 footer {
     padding-top: 1.5rem;
-    padding-bottom:  1.5rem;
+    padding-bottom: 1.5rem;
 }

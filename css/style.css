@@ -6,9 +6,12 @@ body {
 h1 {
     font-weight: bolder;
 }
-    
-header, footer, #about, #watch {
-    background-color: #1F2937;
+
+header,
+footer,
+#about,
+#watch {
+    background-color: #1f2937;
     color: white;
 }
 
@@ -22,9 +25,9 @@ header, footer, #about, #watch {
     box-shadow: 0 0 20px lightgrey;
 }
 
-
-a, button{
-    color: #F9FAF8;
+a,
+button {
+    color: #f9faf8;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -37,24 +40,23 @@ a:hover {
 #top-logo {
     /* color: #F9FAF8; */
     font-weight: bolder;
-    font-size: 32px; 
+    font-size: 32px;
 }
 
-@media (max-width : 768px) {
+@media (max-width: 768px) {
     h1 {
-        font-size: 24px;    
+        font-size: 24px;
     }
 }
 
 .dropdown-content {
     text-align: right;
-    background-color: #1F2937;
+    background-color: #1f2937;
 }
-
 
 @media (max-width: 768px) {
     .dropdown-content a:hover {
-        background-color: #E5E7EB;
+        background-color: #e5e7eb;
         color: black;
     }
 }
@@ -64,16 +66,15 @@ a:hover {
 }
 
 #about-content h1 {
-    font-weight: 1000   ;
+    font-weight: 1000;
     font-size: 48px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 #about-content p {
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
 }
-
 
 .button {
     background-color: rgba(95, 95, 138, 0.075);
@@ -100,7 +101,7 @@ a:hover {
 }
 
 #quote {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     color: #454647;
     font-weight: lighter;
     font-size: 24px;
@@ -116,7 +117,6 @@ a:hover {
         font-size: 16px;
     }
 }
-
 
 #quote h3 {
     font-weight: bold;
